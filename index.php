@@ -7,11 +7,13 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <form action="GET">
+    <form action="action.php" method="post">
         <label for="paragraph">Inserisci un testo</label>
         <input type="text" name="paragraph">
         <label for="badword">Inserisci un parola</label>
         <input type="text" name="badword">
         <button type="submit">Invia i dati </button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
