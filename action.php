@@ -1,15 +1,12 @@
-<?php
-$paragraph = $_POST["paragraph"];
-preg_replace(
-    $badword = $_POST["badword"];
-)
-
-
-?>
-<p>
-    <?php echo $paragraph ?>
-</p>
-<p>
-    <?php echo $badword?>
-</p>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badword</title>
+</head>
+<body>
+   <p> <?php echo $_POST['paragraph']?></p> 
+</body>
+</html>
