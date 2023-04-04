@@ -7,6 +7,6 @@
     <title>Badword</title>
 </head>
 <body>
-   <p> <?php echo $_POST['paragraph']?></p> 
+   <p> <?php echo $_POST['paragraph']?> è ha  <?php echo strlen($_POST['paragraph']) ?> caratteri</p> 
 </body>
 </html>
