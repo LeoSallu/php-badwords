@@ -7,7 +7,7 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    <form action="action.php" method="post">
+    <form action="action.php" method="POST">
         <label for="paragraph">Inserisci un testo</label>
         <input type="text" name="paragraph">
         <label for="badword">Inserisci un parola</label>
